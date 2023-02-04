@@ -1,0 +1,19 @@
+cmd.exe
+/X
+/C
+""C:\Program Files\Java\jdk1.8.0_351\jre\..\bin\javadoc.exe" @options @argfile"
+C:\Users\han\IdeaProjects\AutomationSaucemode\target\apidocs\allclasses-frame.html = 1675534937749
+C:\Users\han\IdeaProjects\AutomationSaucemode\target\apidocs\allclasses-noframe.html = 1675534937750
+C:\Users\han\IdeaProjects\AutomationSaucemode\target\apidocs\argfile = 1675534935943
+C:\Users\han\IdeaProjects\AutomationSaucemode\target\apidocs\constant-values.html = 1675534937693
+C:\Users\han\IdeaProjects\AutomationSaucemode\target\apidocs\deprecated-list.html = 1675534937746
+C:\Users\han\IdeaProjects\AutomationSaucemode\target\apidocs\help-doc.html = 1675534937761
+C:\Users\han\IdeaProjects\AutomationSaucemode\target\apidocs\index-all.html = 1675534937740
+C:\Users\han\IdeaProjects\AutomationSaucemode\target\apidocs\index.html = 1675534937754
+C:\Users\han\IdeaProjects\AutomationSaucemode\target\apidocs\options = 1675534935940
+C:\Users\han\IdeaProjects\AutomationSaucemode\target\apidocs\overview-frame.html = 1675534937658
+C:\Users\han\IdeaProjects\AutomationSaucemode\target\apidocs\overview-summary.html = 1675534937756
+C:\Users\han\IdeaProjects\AutomationSaucemode\target\apidocs\overview-tree.html = 1675534937730
+C:\Users\han\IdeaProjects\AutomationSaucemode\target\apidocs\package-list = 1675534937591
+C:\Users\han\IdeaProjects\AutomationSaucemode\target\apidocs\script.js = 1675534937762
+C:\Users\han\IdeaProjects\AutomationSaucemode\target\apidocs\stylesheet.css = 1675534243698

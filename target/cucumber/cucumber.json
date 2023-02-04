@@ -1,0 +1,204 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5904599101,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "User sort product and add 2 item to cart",
+        "description": "",
+        "id": "purchase-end2end;user-sort-product-and-add-2-item-to-cart",
+        "after": [
+          {
+            "result": {
+              "duration": 726954700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 984624499,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User already login",
+            "match": {
+              "location": "purchaseSteps.userAlreadyLogin()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 66844699,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User already landing page",
+            "match": {
+              "location": "purchaseSteps.verifyLoginPagePurchase()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3173281399,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User sort product list by \"Name (Z to A)\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Name (Z to A)",
+                  "offset": 27
+                }
+              ],
+              "location": "purchaseSteps.selectProductCart(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3214398300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User add item  \"Test.allTheThings() T-Shirt (Red)\" and \"Sauce Labs Onesie\" to cart",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Test.allTheThings() T-Shirt (Red)",
+                  "offset": 16
+                },
+                {
+                  "val": "Sauce Labs Onesie",
+                  "offset": 56
+                }
+              ],
+              "location": "purchaseSteps.addtItem(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3114508200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User click shopping chart icon",
+            "match": {
+              "location": "purchaseSteps.clickshoppingChart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3083802400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User remove item \"Test.allTheThings() T-Shirt (Red)\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Test.allTheThings() T-Shirt (Red)",
+                  "offset": 18
+                }
+              ],
+              "location": "CartSteps.removeItemUser(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3105776601,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User click checkout",
+            "match": {
+              "location": "CartSteps.checkoutBtn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3779825300,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User input information cekout and continue",
+            "match": {
+              "location": "CekoutSteps.removeItemUser()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3136028200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User verify total price order",
+            "match": {
+              "location": "CekoutSteps.verifyTotalPrice()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 95217300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User click finish button",
+            "match": {
+              "location": "CekoutSteps.clickButtonFinish()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3061108500,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User succesfully order",
+            "match": {
+              "location": "CekoutSteps.verifySuccesOrder()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "purchase end2end",
+    "description": "As user purchase item with sort product",
+    "id": "purchase-end2end",
+    "keyword": "Feature",
+    "uri": "features/Purchase.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Purchase"
+      }
+    ]
+  }
+]
