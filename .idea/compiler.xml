@@ -9,5 +9,8 @@
         <module name="AutomationSaucemode" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cucumber-starter" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
