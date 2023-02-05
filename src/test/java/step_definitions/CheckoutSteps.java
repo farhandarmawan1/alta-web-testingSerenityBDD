@@ -16,7 +16,7 @@ public class CheckoutSteps {
         this.webDriver = Hooks.webDriver;
     }
 
-    @And("User input information cekout and continue")
+    @And("User input information checkout and continue")
     public void removeItemUser() throws InterruptedException {
         CheckoutPage cekoutPage = new CheckoutPage(webDriver);
         cekoutPage.setFrstName("Farhan");
